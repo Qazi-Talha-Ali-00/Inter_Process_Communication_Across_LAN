@@ -38,3 +38,18 @@ This project demonstrates **Inter-Process Communication (IPC) across a Local Are
    ```sh
    git clone https://github.com/Qazi-Talha-Ali-00/Inter_Process_Communication_Across_LAN.git
    cd Inter_Process_Communication_Across_LAN
+
+
+2. **Compile the Server and Client**
+   ```sh
+   g++ server.cpp -o server
+   g++ client.cpp -o client
+
+
+3. **Run the Sever**
+   ```sh
+   ./server
+
+4. **Run the Cliend**
+   ```sh
+   ./client

@@ -6,10 +6,9 @@ This project demonstrates **Inter-Process Communication (IPC) across a Local Are
 
 ## 🎥 Project Demonstration
 
-<video width="700" controls>
-  <source src="assets/working.webm" type="video/webm">
-  Your browser does not support the video tag.
-</video>
+![Demo](assets/working.gif)  
+
+Click [here](assets/working.webm) to view the full video.
 ## ⚡ Features
 
 - Communication between processes across different machines in a LAN.
@@ -20,7 +19,7 @@ This project demonstrates **Inter-Process Communication (IPC) across a Local Are
 
 ## 🛠️ Technologies Used
 
-- **Programming Language:** C
+- **Programming Language:** C++
 - **Networking Protocol:** TCP/IP
 - **Operating System:** Linux/Windows (via MinGW for Windows)
 
@@ -46,10 +45,10 @@ This project demonstrates **Inter-Process Communication (IPC) across a Local Are
    g++ client.cpp -o client
 
 
-3. **Run the Sever**
+3. **Run the Server**
    ```sh
    ./server
 
-4. **Run the Cliend**
+4. **Run the Client**
    ```sh
    ./client

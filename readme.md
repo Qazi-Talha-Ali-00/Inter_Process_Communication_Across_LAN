@@ -6,10 +6,10 @@ This project demonstrates **Inter-Process Communication (IPC) across a Local Are
 
 ## 🎥 Project Demonstration
 
-[![Watch the Video](assets/working.webm)]
-
-> *Click on the image above to watch the video demonstration.*
-
+<video width="700" controls>
+  <source src="assets/working.webm" type="video/webm">
+  Your browser does not support the video tag.
+</video>
 ## ⚡ Features
 
 - Communication between processes across different machines in a LAN.

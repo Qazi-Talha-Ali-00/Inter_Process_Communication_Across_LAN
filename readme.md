@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 
-This project demonstrates **Inter-Process Communication (IPC) across a Local Area Network (LAN)** using [specify IPC method, e.g., Sockets, Message Queues, Shared Memory, etc.]. It allows multiple processes running on different machines within the same network to communicate efficiently.
+This project demonstrates **Inter-Process Communication (IPC) across a Local Area Network (LAN)** using **Sockets**. It enables multiple processes running on different machines within the same network to communicate efficiently.
 
 ## 🎥 Project Demonstration
 
@@ -13,23 +13,24 @@ This project demonstrates **Inter-Process Communication (IPC) across a Local Are
 ## ⚡ Features
 
 - Communication between processes across different machines in a LAN.
-- Efficient data transmission using [specify method, e.g., TCP/UDP sockets].
+- Efficient data transmission using **TCP sockets**.
 - Support for multiple clients communicating with a server.
 - Secure and reliable message exchange.
 - Scalable and adaptable for various IPC use cases.
 
 ## 🛠️ Technologies Used
 
-- **Programming Language:** [C++]
-- **Networking Protocol:** [TCP, UDP]
-- **Operating System:** [Linux]
+- **Programming Language:** C
+- **Networking Protocol:** TCP/IP
+- **Operating System:** Linux/Windows (via MinGW for Windows)
 
 ## 🚀 Installation & Setup
 
 ### Prerequisites
 
 - Ensure all machines are connected to the same LAN.
-- Install [g++ compiler].
+- Install a C compiler such as **GCC**.
+- Allow network communication through firewalls if necessary.
 
 ### Steps
 
